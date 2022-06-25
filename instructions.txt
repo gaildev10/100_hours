@@ -1,0 +1,20 @@
+# Create a server.js file
+
+1. Initialize npm and install dependencies  //express, dotenv, cors, mongodb, ejs, nodemon (—save-dev)
+2. Require dependencies in server js
+3. Declare variables
+4. Connect to MongoDB - add connection string to .env file
+5. Add .env file to gitignore
+6. Create Port. // Test Mongo and Port Connection
+7. Set Middleware
+8. Create gitignore file
+9. Create Public and Views folders - add main.js and style.css to Public and index.ejs to views
+10. From Root, init local git repo and commit
+11. Add content to main.js, style.css and index.ejs
+12. Create Heroku Repo 
+// heroku login
+// heroku create simple-rap-api
+// ekco ‘web: node server.js’> Procfile
+// git add .
+//git commit -m “changes”
+//git push heroku main
